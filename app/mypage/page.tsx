@@ -4,12 +4,17 @@ import Image from "next/image";
 export default function page() {
     return (
         <div className="mypage-background h-screen flex items-center justify-center">
+            <div className="z-10 flex flex-col items-center justify-left angled-scroll">
+                <h1 className="black-border">Wybrane Środowiska Programowania</h1>
+                wykonano przy użyciu Next.js oraz tailwindcss
+            </div>
             <div className="z-10 flex flex-col items-center justify-center angled-scroll">
                 <h1 className="gold-border">Norbert Karasek</h1>
-                <h1 className="black-border"> Nr albumu: 119190</h1>
-                <p className="black-border">Praca na zaliczenie przedmiotu </p>
-                <p className="black-border">WYBRANE ŚRODOWISKA PROGRAMOWANIA </p>
-                <p className="black-border">wykonana przy użyciu framework'u Tailwind</p>
+                <p>Nr albumu: 119190 </p>
+            </div>
+            <div className="z-10 flex flex-col items-center justify-right angled-scroll">
+                <p className="black-border ">Podziękowania dla Chat GPT</p>
+                oraz GitHub Copilot
             </div>
         </div>
     );
