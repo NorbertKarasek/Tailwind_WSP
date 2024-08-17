@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Norbert Karasek - 119190 - grupa 2",
-  description: "Project created for school purposesnp ",
+  description: "Project created for school purposes",
 };
 
 export default function RootLayout({
